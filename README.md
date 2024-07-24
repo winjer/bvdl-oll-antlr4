@@ -1,9 +1,15 @@
 # bvdl-oll-antlr4
-ANTLR4 Implementation of bvdl.io's oll
+
+Original repository here:
+
+https://github.com/basvdl97/OLL-Interpreter
+
+program1.oll, program2.oll and program3.oll are all taken directly from there.
+
 
 ## Running ANTLR4 on the grammar file
 
-You only need to do this if you change the grammar file `oll.g4`:
+You only need to do this if you change the grammar file `OLL.g4`:
 
     curl -o antlr-4.13.1-complete.jar https://www.antlr.org/download/antlr-4.13.1-complete.jar
 

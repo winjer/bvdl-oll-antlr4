@@ -29,6 +29,11 @@ class OLLVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by OLLParser#halt.
+    def visitHalt(self, ctx:OLLParser.HaltContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by OLLParser#push.
     def visitPush(self, ctx:OLLParser.PushContext):
         return self.visitChildren(ctx)
